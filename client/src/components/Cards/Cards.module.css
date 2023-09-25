@@ -1,0 +1,71 @@
+.backgroundBlack{
+  background-image: url("../../images/blackBackground.png");
+  background-position: center center; 
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  min-height: 100vh;
+}
+.backgroundWhite{
+  background-image: url("../../images/whiteBackground.png");
+  background-position: center center; 
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  min-height: 100vh;
+}
+.orderMenu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+
+}
+.filterOrdering{
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding-top: 20px;
+}
+.search{
+  position: absolute;
+  transform: translate(500%, 550%);
+}
+.components {
+  width: 100%;
+  height: 28vh;
+  background-image: url("../../images/19683992.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  background-attachment: fixed;
+  background-size: cover; 
+}
+.cardsStyle {
+  margin-top: 11vh;
+  justify-content: center;
+  align-self: center;
+  display: grid;
+  grid-template-columns: repeat(3, 3fr);
+  gap: 50px;
+}
+.containerCards1{
+  display: flex;
+  justify-content: center; 
+  align-items: center;/*
+  width: 100%;
+  height: 100%; */
+}
+
+@media (max-width: 768px) {
+  .cardsStyle {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 480px) {
+  .cardsStyle {
+    grid-template-columns: 1fr;
+  }
+}

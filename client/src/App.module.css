@@ -1,0 +1,26 @@
+.container {
+    min-height: 100vh;
+    min-width: 100vw;
+    background-image: linear-gradient(
+    100deg,
+    rgba(0,0,0,0.2),
+    rgba(0,0,0,0.2)
+) 
+, url('./images/background-Black.png');
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-attachment: fixed;
+ }
+.containerLight{
+    min-height: 100vh;
+    min-width: 100vw;
+    background-image: linear-gradient(
+    100deg,
+    rgba(0,0,0,0.2),
+    rgba(0,0,0,0.2)
+) 
+, url('./images/background-White.png');
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-attachment: fixed;
+ }
